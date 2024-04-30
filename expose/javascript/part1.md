@@ -1,6 +1,6 @@
-1. If num1 and num2 are both numbers, then the sum will be printed. Otherwise, the code will append num1 and num2 and print it.
-2. If num1 and num2 are both numbers, then the sum will be printed. Otherwise, the code will append num1 and num2 and print it.
-3. If num1 and num2 are both numbers, then the sum will be printed. Otherwise, the code will append num1 and num2 and print it.
-4. An error will be printed because result is not accessible in line 13 as it is a different block.
-5. The code will return an error because it is trying to edit a variable declared as const.
-6. The code will return an error because it is trying to edit a variable declared as const.
+1. values added: 20
+2. final result: 20
+3. values added: 20
+4. ReferenceError: result is not defined at sumValues (:14:33) at :17:1 at mn (:16:5455). An error is returned because the line 13 is attempting to access the result variable that was declared in a different block using "let," which limits the scope to only the same block.
+5. Cannot assign to "result" because it is a constant script.js? 4:8. The result variable is a constant variable, meaning that it cannot be changed. When trying to change the data of result, an error is thrown because "result" is a constant variable.
+6. The program will never reach line 13 because an error occurs with line 9.
