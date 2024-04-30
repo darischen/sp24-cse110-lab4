@@ -33,6 +33,6 @@
     6.  true because Boolean(2) returns true, and true is the same as true.
 15. == is a regular comparison and === is a strict comparison. == does not take into account data type, but === does.
 16. file
-17. The result would be the original array but each value multiplied by two. In each for loop iteration, the index is multiplied by two by calling the callback function.
+17. The result would be [2, 4, 6]. In each for loop iteration, the value at each index is multiplied by two because of the callback variable calling the doSomething function.
 18. file
 19. 1 4 3 2 is the output
